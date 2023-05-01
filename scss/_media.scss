@@ -1,0 +1,30 @@
+@media (max-width:576px)
+{
+    .nav .nav-list2 li a{
+      font-size: $textsm;
+    }
+    .productos{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .productos figure{
+      width: 100%;
+    }
+    .productos figure p{
+      font-size: $textsmd;
+      color: $labelcolor;
+    } 
+    .productos figure img{
+      width: 100%;
+      height: 250px;
+    }
+    .imagen-fondo img{
+      width: 100%;
+      height: 250px;
+    }
+    .tienda .prod1{
+      display: grid;
+      grid-template-rows: auto auto auto auto;
+      grid-template-columns: auto;  
+    }
+}

@@ -1,0 +1,49 @@
+.productos
+{
+display:flex;
+flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-between;
+
+    .productos figure
+    { 
+    width: 25%;
+    BORDER:solid 1PX GRAY;
+    padding: 10px 20px;
+
+
+    .productos figure img{
+            width: 100%;
+            height: 20%;}
+
+        .productos figure figcaption
+            {
+            color:$keycolor;
+            font-size: $textlg;
+            margin-bottom: 10px;
+            text-align: center;
+            }
+
+                .productos figure p
+                {
+                font-size: $textsmd;
+                color: $labelcolor;
+                }
+
+                .productos figure button
+                {
+                    background-color: $maincolor;
+                    color: $keycolor;
+                    border: none;
+                    padding: 6px;
+                    border-radius: 4px;
+                    margin-top: 20px;
+                }
+
+                    .productos figure button:hover
+                {
+                        background-color: #e66666;
+                        cursor: pointer;
+                }
+    }
+}

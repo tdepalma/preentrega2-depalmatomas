@@ -1,0 +1,18 @@
+.nav{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    .nav-list2{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        list-style-type: none;
+        text-decoration: none;
+        li a{
+            color: $keycolor;
+            text-shadow:$textcolor;
+            font-size: $textsmd;
+            text-decoration: none;
+      }
+  }
+}

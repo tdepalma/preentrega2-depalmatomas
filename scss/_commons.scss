@@ -1,0 +1,91 @@
+.contenedor
+{
+    margin: 0px 15px;
+  
+    .contenedor h1
+    {
+          text-align: center;
+          font-size: $textlg;
+          color: $keycolor;
+          margin: 10px 0;
+    }
+}
+
+
+body{background-image:url(../img/fondo1.jpg) ;
+    background-repeat: no-repeat; 
+    background-attachment: fixed ;
+    background-size: cover;
+}
+table{
+    color:$labelcolor;
+    text-align: center;
+    border: $labelcolor;
+    font-size: $font-table;}
+
+label{color: $labelcolor ;}
+
+ figcaption{color: $keycolor; font-size: $font-fig;}
+
+ //footer
+ footer
+ {
+    margin: 20px 0px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between; 
+    margin: 20px 0px;
+    background: #80000080;
+     svg
+    {
+        width: 30px; 
+        fill: $keycolor;
+        margin-right: 40px;
+    }
+    ul{
+        list-style:none ;
+     li a {
+        text-decoration: none;
+        color:$keycolor;
+        font-size: $textsm;}
+    }
+}
+ 
+.actions
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    input
+    {
+        padding: 6px;
+        border-radius: 3px;
+        border:none ;
+        background-color:$labelcolor;
+      }
+      button
+    {
+        margin-left: 10px;
+        background-color:$labelcolor ;
+        color: $labelcolor;
+        padding: 6px;
+        border:none;
+        border-radius: 3px;
+    }
+}
+h1{text-align: center;
+    color:$keycolor}
+     main p{
+      text-align: center;
+      color: $keycolor}
+
+
+.imagen-fondo img{
+        width: 100%;
+        height: 250px;}
+        
+.tienda .prod1{
+            display: grid;
+            grid-template-rows: auto auto auto auto;
+            grid-template-columns: auto;  
+          }
