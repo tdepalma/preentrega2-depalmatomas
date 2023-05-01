@@ -1,0 +1,19 @@
+button{
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $textsmd;
+    color: $labelcolor;
+}
+
+button{
+    @extend button;
+    border-radius:5px;}
+
+@mixin h1($color,$size)
+{font-family: $mainfont;
+    color:$color;
+    font-size: $size;
+ }
+  h1{ @include h1($keycolor,$textsmd)}
