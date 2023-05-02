@@ -192,12 +192,23 @@ footer ul li a {
     text-align: center;
     color: gold
    }
+
+
+    section{
+      display: flex;
+      width: 1500px;
+      height: 800px;
+      text-align: center;
+      justify-content: center;
+     align-items: center;
+    }
    section img{ 
     width:0px;
     flex-grow: 1;
     object-fit: cover;
     opacity: .8;
     transition: .5s ease;
+     
 
    }
    section img:hover{
@@ -206,3 +217,4 @@ footer ul li a {
     opacity: 1;
     filter: contrast(120%);
    }
+
