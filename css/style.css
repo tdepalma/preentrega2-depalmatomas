@@ -184,8 +184,7 @@ footer ul li a {
     grid-template-rows: auto auto auto auto;
     grid-template-columns: auto;  
   }
-  footer{ width: 100%}
-  body{ width:100%}
+ 
   
 }
  h1{
@@ -201,8 +200,6 @@ footer ul li a {
 
     section{
       display: flex;
-      width: 1500px;
-      height: 800px;
       text-align: center;
       justify-content: center;
      align-items: center;
@@ -223,3 +220,11 @@ footer ul li a {
     filter: contrast(120%);
    }
 
+   main section h1{
+    text-align: center;
+    color:gold}
+     
+    article main{
+      text-align: center;
+    color:gold
+    }
