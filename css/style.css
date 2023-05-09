@@ -186,6 +186,10 @@ footer ul li a {
   }
   footer{ width: 100%}
   body{ width:100%}
+  section img{
+    width: 100%;
+    height: 250px;
+  }
 }
  h1{
   text-align: center;
