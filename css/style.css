@@ -1,6 +1,6 @@
 *{
   font-family: 'Roboto', sans-serif;
-  margin: 0;
+ margin: 0%;
   padding: 0;
 }
 .nav{
@@ -84,27 +84,30 @@ font-size: 2vw;}
   cursor: pointer;
 }
 footer{
-  margin: 20px 0px;
+
   padding: 10px 30px;
   display: flex;
   justify-content: space-between; 
-  margin: 20px 0px;
   background: #80000080;
+  margin-bottom: auto;
   
 }
 footer svg{
   width: 30px;
   fill: gold;
   margin-right: 40px;
+ 
 }
 
 footer ul{
-  list-style:none
+  list-style:none ;
+  
 }
 footer ul li a {
   text-decoration: none;
   color: gold;
   font-size: 1rem;
+  
 }
 .filter li {
   padding-left: 10px;
@@ -230,3 +233,6 @@ footer ul li a {
       text-align: center;
     color:gold
     }
+    h2{
+      text-align: center;
+      color:gold}
